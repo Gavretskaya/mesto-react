@@ -17,6 +17,7 @@ export default function Main({onEditProfile, onAddPlace, onEditAvatar, onCardCli
         dataCards.forEach(data => data.myid = userData._id)
         setCards(dataCards)
       })
+      .catch((error => console.error(`Возникла ошибка ${error}`)))
   }, [])
 
   return(
