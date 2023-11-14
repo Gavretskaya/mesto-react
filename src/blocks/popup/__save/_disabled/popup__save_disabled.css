@@ -1,9 +1,10 @@
 .popup__save_disabled {
   background-color: #FFFFFF;
-  cursor: default;
+  cursor: none;
   height: 50px;
   color: #000000;
   border: 1px solid #000000;
+  pointer-events: none;
   
   text-align: center;
   font-size: 18px;
